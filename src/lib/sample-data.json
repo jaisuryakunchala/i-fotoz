@@ -1,0 +1,770 @@
+{
+  "settings": {
+    "site_name": "i Fotoz",
+    "tagline": "Every Frame Tells a Story.",
+    "email": "hello@ifotoz.com",
+    "phone": "+91 98765 43210",
+    "phone2": "",
+    "whatsapp": "919876543210",
+    "address": "Main Road, City Centre, Your City",
+    "map_embed_url": "",
+    "business_hours": "Mon – Sat: 9:30 AM – 8:30 PM · Sunday by appointment",
+    "instagram_url": "https://instagram.com/",
+    "facebook_url": "https://facebook.com/",
+    "youtube_url": "https://youtube.com/",
+    "hero_heading": "Every Frame Tells a Story.",
+    "hero_description": "Weddings, portraits, celebrations and events — photographed with patience, craft and an eye for the moments that matter.",
+    "hero_image_url": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=2400&q=80",
+    "about_heading": "A family studio built on trust and craft",
+    "about_text": "For years, i Fotoz has photographed the milestones of families in our city — weddings, engagements, birthdays and everyday portraits. We work with care, keep things relaxed in front of the camera, and deliver images you will be proud to keep for a lifetime.\n\nFrom a single portrait in our studio to complete event coverage, every session gets the same attention to light, detail and emotion.",
+    "about_image_url": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=1400&q=80",
+    "banner_enabled": true,
+    "banner_text": "Now booking wedding & engagement shoots for the new season",
+    "banner_link": "/contact"
+  },
+  "categories": [
+    {
+      "id": "00000000-0000-4000-8000-000000000001",
+      "name": "Single Photos",
+      "slug": "single-photos",
+      "description": "Individual portraits that capture personality, style and expression.",
+      "cover_url": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=1200&q=80",
+      "cover_path": null,
+      "sort_order": 0,
+      "is_featured": true,
+      "created_at": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000002",
+      "name": "Group Photos",
+      "slug": "group-photos",
+      "description": "Families, friends and teams framed together in one memorable moment.",
+      "cover_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=1200&q=80",
+      "cover_path": null,
+      "sort_order": 1,
+      "is_featured": true,
+      "created_at": "2026-11-19T23:43:20.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000003",
+      "name": "Wedding Photography",
+      "slug": "wedding",
+      "description": "Timeless wedding stories, from the first look to the last dance.",
+      "cover_url": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
+      "cover_path": null,
+      "sort_order": 2,
+      "is_featured": true,
+      "created_at": "2026-11-19T23:26:40.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000004",
+      "name": "Birthday Photography",
+      "slug": "birthday",
+      "description": "Colourful celebrations, candles, cake and genuine joy.",
+      "cover_url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=1200&q=80",
+      "cover_path": null,
+      "sort_order": 3,
+      "is_featured": true,
+      "created_at": "2026-11-19T23:10:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000005",
+      "name": "Engagement Photography",
+      "slug": "engagement",
+      "description": "The promise of forever, captured with warmth and intimacy.",
+      "cover_url": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=1200&q=80",
+      "cover_path": null,
+      "sort_order": 4,
+      "is_featured": true,
+      "created_at": "2026-11-19T22:53:20.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000006",
+      "name": "Functions & Events",
+      "slug": "functions-events",
+      "description": "Ceremonies, corporate events and cultural functions covered end to end.",
+      "cover_url": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80",
+      "cover_path": null,
+      "sort_order": 5,
+      "is_featured": true,
+      "created_at": "2026-11-19T22:36:40.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000007",
+      "name": "Outdoor Photography",
+      "slug": "outdoor",
+      "description": "Natural light, open landscapes and on-location sessions.",
+      "cover_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+      "cover_path": null,
+      "sort_order": 6,
+      "is_featured": false,
+      "created_at": "2026-11-19T22:20:00.000Z"
+    },
+    {
+      "id": "00000000-0000-4000-8000-000000000008",
+      "name": "Other Photography",
+      "slug": "other",
+      "description": "Product, creative and special assignments beyond the usual.",
+      "cover_url": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=1200&q=80",
+      "cover_path": null,
+      "sort_order": 7,
+      "is_featured": false,
+      "created_at": "2026-11-19T22:03:20.000Z"
+    }
+  ],
+  "photos": [
+    {
+      "id": "10000000-0000-4000-8000-000000000001",
+      "category_id": "00000000-0000-4000-8000-000000000001",
+      "title": "Golden Hour Portrait",
+      "description": "Golden Hour Portrait — single photos by i Fotoz.",
+      "tags": [
+        "single"
+      ],
+      "url": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": true,
+      "created_at": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000002",
+      "category_id": "00000000-0000-4000-8000-000000000001",
+      "title": "Natural Smile",
+      "description": "Natural Smile — single photos by i Fotoz.",
+      "tags": [
+        "single"
+      ],
+      "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T16:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000003",
+      "category_id": "00000000-0000-4000-8000-000000000001",
+      "title": "Classic Studio Portrait",
+      "description": "Classic Studio Portrait — single photos by i Fotoz.",
+      "tags": [
+        "single"
+      ],
+      "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T08:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000004",
+      "category_id": "00000000-0000-4000-8000-000000000001",
+      "title": "Soft Light Study",
+      "description": "Soft Light Study — single photos by i Fotoz.",
+      "tags": [
+        "single"
+      ],
+      "url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000005",
+      "category_id": "00000000-0000-4000-8000-000000000001",
+      "title": "Confident Gaze",
+      "description": "Confident Gaze — single photos by i Fotoz.",
+      "tags": [
+        "single"
+      ],
+      "url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-18T16:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000006",
+      "category_id": "00000000-0000-4000-8000-000000000002",
+      "title": "Friends Forever",
+      "description": "Friends Forever — group photos by i Fotoz.",
+      "tags": [
+        "group"
+      ],
+      "url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": true,
+      "created_at": "2026-11-19T23:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000007",
+      "category_id": "00000000-0000-4000-8000-000000000002",
+      "title": "Weekend Together",
+      "description": "Weekend Together — group photos by i Fotoz.",
+      "tags": [
+        "group"
+      ],
+      "url": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T15:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000008",
+      "category_id": "00000000-0000-4000-8000-000000000002",
+      "title": "Shared Laughter",
+      "description": "Shared Laughter — group photos by i Fotoz.",
+      "tags": [
+        "group"
+      ],
+      "url": "https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1543269865-cbf427effbad?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T07:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000009",
+      "category_id": "00000000-0000-4000-8000-000000000002",
+      "title": "Team Spirit",
+      "description": "Team Spirit — group photos by i Fotoz.",
+      "tags": [
+        "group"
+      ],
+      "url": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-18T23:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000010",
+      "category_id": "00000000-0000-4000-8000-000000000003",
+      "title": "The First Dance",
+      "description": "The First Dance — wedding photography by i Fotoz.",
+      "tags": [
+        "wedding"
+      ],
+      "url": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": true,
+      "created_at": "2026-11-19T22:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000011",
+      "category_id": "00000000-0000-4000-8000-000000000003",
+      "title": "Vows at Sunset",
+      "description": "Vows at Sunset — wedding photography by i Fotoz.",
+      "tags": [
+        "wedding"
+      ],
+      "url": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T14:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000012",
+      "category_id": "00000000-0000-4000-8000-000000000003",
+      "title": "Bridal Details",
+      "description": "Bridal Details — wedding photography by i Fotoz.",
+      "tags": [
+        "wedding"
+      ],
+      "url": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T06:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000013",
+      "category_id": "00000000-0000-4000-8000-000000000003",
+      "title": "Just Married",
+      "description": "Just Married — wedding photography by i Fotoz.",
+      "tags": [
+        "wedding"
+      ],
+      "url": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-18T22:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000014",
+      "category_id": "00000000-0000-4000-8000-000000000003",
+      "title": "Reception Lights",
+      "description": "Reception Lights — wedding photography by i Fotoz.",
+      "tags": [
+        "wedding"
+      ],
+      "url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-18T14:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000015",
+      "category_id": "00000000-0000-4000-8000-000000000004",
+      "title": "Balloons & Wishes",
+      "description": "Balloons & Wishes — birthday photography by i Fotoz.",
+      "tags": [
+        "birthday"
+      ],
+      "url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": true,
+      "created_at": "2026-11-19T21:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000016",
+      "category_id": "00000000-0000-4000-8000-000000000004",
+      "title": "Make a Wish",
+      "description": "Make a Wish — birthday photography by i Fotoz.",
+      "tags": [
+        "birthday"
+      ],
+      "url": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T13:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000017",
+      "category_id": "00000000-0000-4000-8000-000000000004",
+      "title": "Confetti Moments",
+      "description": "Confetti Moments — birthday photography by i Fotoz.",
+      "tags": [
+        "birthday"
+      ],
+      "url": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1513151233558-d860c5398176?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T05:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000018",
+      "category_id": "00000000-0000-4000-8000-000000000004",
+      "title": "Party Table",
+      "description": "Party Table — birthday photography by i Fotoz.",
+      "tags": [
+        "birthday"
+      ],
+      "url": "https://images.unsplash.com/photo-1558636508-e0db3814bd1d?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1558636508-e0db3814bd1d?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-18T21:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000019",
+      "category_id": "00000000-0000-4000-8000-000000000005",
+      "title": "Hand in Hand",
+      "description": "Hand in Hand — engagement photography by i Fotoz.",
+      "tags": [
+        "engagement"
+      ],
+      "url": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": true,
+      "created_at": "2026-11-19T20:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000020",
+      "category_id": "00000000-0000-4000-8000-000000000005",
+      "title": "The Ring",
+      "description": "The Ring — engagement photography by i Fotoz.",
+      "tags": [
+        "engagement"
+      ],
+      "url": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T12:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000021",
+      "category_id": "00000000-0000-4000-8000-000000000005",
+      "title": "Together",
+      "description": "Together — engagement photography by i Fotoz.",
+      "tags": [
+        "engagement"
+      ],
+      "url": "https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T04:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000022",
+      "category_id": "00000000-0000-4000-8000-000000000005",
+      "title": "A Quiet Moment",
+      "description": "A Quiet Moment — engagement photography by i Fotoz.",
+      "tags": [
+        "engagement"
+      ],
+      "url": "https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-18T20:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000023",
+      "category_id": "00000000-0000-4000-8000-000000000006",
+      "title": "Celebration Night",
+      "description": "Celebration Night — functions & events by i Fotoz.",
+      "tags": [
+        "functions"
+      ],
+      "url": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": true,
+      "created_at": "2026-11-19T19:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000024",
+      "category_id": "00000000-0000-4000-8000-000000000006",
+      "title": "Conference Keynote",
+      "description": "Conference Keynote — functions & events by i Fotoz.",
+      "tags": [
+        "functions"
+      ],
+      "url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T11:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000025",
+      "category_id": "00000000-0000-4000-8000-000000000006",
+      "title": "Gala Evening",
+      "description": "Gala Evening — functions & events by i Fotoz.",
+      "tags": [
+        "functions"
+      ],
+      "url": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T03:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000026",
+      "category_id": "00000000-0000-4000-8000-000000000006",
+      "title": "Live on Stage",
+      "description": "Live on Stage — functions & events by i Fotoz.",
+      "tags": [
+        "functions"
+      ],
+      "url": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-18T19:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000027",
+      "category_id": "00000000-0000-4000-8000-000000000007",
+      "title": "Valley at Dawn",
+      "description": "Valley at Dawn — outdoor photography by i Fotoz.",
+      "tags": [
+        "outdoor"
+      ],
+      "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": true,
+      "created_at": "2026-11-19T18:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000028",
+      "category_id": "00000000-0000-4000-8000-000000000007",
+      "title": "Into the Light",
+      "description": "Into the Light — outdoor photography by i Fotoz.",
+      "tags": [
+        "outdoor"
+      ],
+      "url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T10:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000029",
+      "category_id": "00000000-0000-4000-8000-000000000007",
+      "title": "Mirror Lake",
+      "description": "Mirror Lake — outdoor photography by i Fotoz.",
+      "tags": [
+        "outdoor"
+      ],
+      "url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T02:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000030",
+      "category_id": "00000000-0000-4000-8000-000000000007",
+      "title": "Misty Hills",
+      "description": "Misty Hills — outdoor photography by i Fotoz.",
+      "tags": [
+        "outdoor"
+      ],
+      "url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-18T18:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000031",
+      "category_id": "00000000-0000-4000-8000-000000000008",
+      "title": "Behind the Lens",
+      "description": "Behind the Lens — other photography by i Fotoz.",
+      "tags": [
+        "other"
+      ],
+      "url": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": true,
+      "created_at": "2026-11-19T17:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000032",
+      "category_id": "00000000-0000-4000-8000-000000000008",
+      "title": "Field Work",
+      "description": "Field Work — other photography by i Fotoz.",
+      "tags": [
+        "other"
+      ],
+      "url": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T09:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000033",
+      "category_id": "00000000-0000-4000-8000-000000000008",
+      "title": "Glass & Light",
+      "description": "Glass & Light — other photography by i Fotoz.",
+      "tags": [
+        "other"
+      ],
+      "url": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-19T01:00:00.000Z"
+    },
+    {
+      "id": "10000000-0000-4000-8000-000000000034",
+      "category_id": "00000000-0000-4000-8000-000000000008",
+      "title": "The Craft",
+      "description": "The Craft — other photography by i Fotoz.",
+      "tags": [
+        "other"
+      ],
+      "url": "https://images.unsplash.com/photo-1554080353-a576cf803bda?auto=format&fit=crop&w=2000&q=80",
+      "path": null,
+      "thumb_url": "https://images.unsplash.com/photo-1554080353-a576cf803bda?auto=format&fit=crop&w=800&q=80",
+      "thumb_path": null,
+      "width": null,
+      "height": null,
+      "status": "published",
+      "is_featured": false,
+      "created_at": "2026-11-18T17:00:00.000Z"
+    }
+  ],
+  "videos": [
+    {
+      "id": "20000000-0000-4000-8000-000000000001",
+      "title": "i Fotoz Studio Showreel",
+      "description": "A quick look at the moments we love to capture.",
+      "source": "upload",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4",
+      "path": null,
+      "thumbnail_url": "https://images.unsplash.com/photo-1554080353-a576cf803bda?auto=format&fit=crop&w=1200&q=80",
+      "thumbnail_path": null,
+      "status": "published",
+      "is_featured": true,
+      "created_at": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000002",
+      "title": "Wedding Highlights",
+      "description": "Highlights from a beautiful wedding celebration.",
+      "source": "upload",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4",
+      "path": null,
+      "thumbnail_url": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
+      "thumbnail_path": null,
+      "status": "published",
+      "is_featured": true,
+      "created_at": "2026-11-19T23:00:00.000Z"
+    },
+    {
+      "id": "20000000-0000-4000-8000-000000000003",
+      "title": "Event Coverage Reel",
+      "description": "Functions and events, covered with care from start to finish.",
+      "source": "upload",
+      "url": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4",
+      "path": null,
+      "thumbnail_url": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1200&q=80",
+      "thumbnail_path": null,
+      "status": "published",
+      "is_featured": true,
+      "created_at": "2026-11-19T22:00:00.000Z"
+    }
+  ]
+}

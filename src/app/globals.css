@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; -webkit-tap-highlight-color: transparent; }
+  body { @apply bg-paper text-ink font-sans antialiased; }
+  ::selection { @apply bg-brass/30; }
+  :focus-visible { @apply outline-none ring-2 ring-brass ring-offset-2 ring-offset-paper; }
+  h1, h2, h3 { text-wrap: balance; }
+}
+
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10; }
+  .label { @apply text-[11px] font-semibold uppercase tracking-label text-brass; }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition duration-300 disabled:cursor-not-allowed disabled:opacity-60; }
+  .btn-primary { @apply btn bg-ink text-paper hover:bg-brass-dark; }
+  .btn-brass { @apply btn bg-brass text-white hover:bg-brass-dark; }
+  .btn-ghost-light { @apply btn border border-white/40 text-white hover:border-white hover:bg-white hover:text-ink; }
+  .btn-outline { @apply btn border border-ink/20 text-ink hover:border-ink hover:bg-ink hover:text-paper; }
+  .link-underline { @apply relative after:absolute after:-bottom-0.5 after:left-0 after:h-px after:w-0 after:bg-current after:transition-all after:duration-300 hover:after:w-full; }
+
+  /* admin form controls */
+  .input { @apply w-full rounded-lg border border-neutral-300 bg-white px-3 py-2 text-sm text-neutral-900 placeholder:text-neutral-400 transition focus:border-brass focus:outline-none focus:ring-2 focus:ring-brass/25 disabled:bg-neutral-100; }
+  .field-label { @apply mb-1.5 block text-sm font-medium text-neutral-700; }
+  .a-btn { @apply inline-flex items-center justify-center gap-2 rounded-lg px-3.5 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-50; }
+  .a-btn-primary { @apply a-btn bg-neutral-900 text-white hover:bg-neutral-700; }
+  .a-btn-secondary { @apply a-btn border border-neutral-300 bg-white text-neutral-800 hover:bg-neutral-50; }
+  .a-btn-danger { @apply a-btn bg-red-600 text-white hover:bg-red-700; }
+  .a-card { @apply rounded-xl border border-neutral-200 bg-white; }
+}
+
+@layer utilities {
+  .scrollbar-none { scrollbar-width: none; }
+  .scrollbar-none::-webkit-scrollbar { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+}
