@@ -14,3 +14,6 @@ export const MAX_VIDEO_MB = Number(process.env.NEXT_PUBLIC_MAX_VIDEO_MB ?? 50) |
 export const IMAGE_TYPES = ["image/jpeg", "image/png", "image/webp", "image/gif"];
 export const ICON_TYPES = [...IMAGE_TYPES, "image/x-icon", "image/vnd.microsoft.icon", "image/svg+xml"];
 export const VIDEO_TYPES = ["video/mp4", "video/webm", "video/quicktime"];
+
+/** Base inbox for the hidden admin login emails (see mobileToLoginEmail). */
+export const ADMIN_LOGIN_EMAIL_BASE = process.env.NEXT_PUBLIC_ADMIN_LOGIN_EMAIL_BASE || "cnu.kunchala@gmail.com";

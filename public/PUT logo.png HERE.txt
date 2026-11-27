@@ -1,0 +1,10 @@
+Put the studio logo here, named exactly:  logo.png
+
+It appears in the header and footer of every page.
+A PNG with a transparent background works best, roughly 600 x 200 pixels.
+Tip: a light-coloured logo is hard to see on the light header, and a dark logo
+is hard to see on the dark footer, so a logo with some colour works best.
+
+Until it is added, the built-in "i Fotoz" mark is shown.
+Once the admin dashboard is connected, the logo can also be uploaded in
+Admin -> Website Settings -> Branding.

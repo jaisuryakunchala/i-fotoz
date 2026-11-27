@@ -18,6 +18,8 @@ export default function ImageField({ label, hint, value, onUploaded, onRemove, f
   const input = useRef<HTMLInputElement>(null);
   const [progress, setProgress] = useState<number | null>(null);
   const [busy, setBusy] = useState(false);
+  const [broken, setBroken] = useState<string | null>(null);
+  const shown = value && value !== broken ? value : null;
   const toast = useToast();
 
   async function pick(file: File | undefined) {
@@ -54,9 +56,9 @@ export default function ImageField({ label, hint, value, onUploaded, onRemove, f
         onDrop={(e) => { e.preventDefault(); pick(e.dataTransfer.files[0]); }}
         className={cn("group relative overflow-hidden rounded-xl border border-dashed border-neutral-300 bg-neutral-50", aspect)}
       >
-        {value ? (
+        {shown ? (
           // eslint-disable-next-line @next/next/no-img-element
-          <img src={value} alt={label} className={cn("h-full w-full", contain ? "object-contain p-4" : "object-cover")} />
+          <img src={shown} alt={label} onError={() => setBroken(shown)} className={cn("h-full w-full", contain ? "object-contain p-4" : "object-cover")} />
         ) : (
           <button type="button" onClick={() => input.current?.click()} disabled={busy} className="flex h-full w-full flex-col items-center justify-center gap-2 text-sm text-neutral-500 hover:text-neutral-800">
             <ImagePlus className="h-6 w-6" /> Click or drop an image
@@ -68,9 +70,9 @@ export default function ImageField({ label, hint, value, onUploaded, onRemove, f
       </div>
       <div className="mt-2 flex flex-wrap items-center gap-2">
         <button type="button" className="a-btn-secondary !py-1.5 text-xs" onClick={() => input.current?.click()} disabled={busy}>
-          {value ? <><RefreshCw className="h-3.5 w-3.5" /> Replace</> : <><ImagePlus className="h-3.5 w-3.5" /> Upload</>}
+          {shown ? <><RefreshCw className="h-3.5 w-3.5" /> Replace</> : <><ImagePlus className="h-3.5 w-3.5" /> Upload</>}
         </button>
-        {value && onRemove && (
+        {shown && onRemove && (
           <button type="button" className="a-btn-secondary !py-1.5 text-xs text-red-600" onClick={remove} disabled={busy}><Trash2 className="h-3.5 w-3.5" /> Remove</button>
         )}
         {hint && <span className="text-xs text-neutral-500">{hint}</span>}

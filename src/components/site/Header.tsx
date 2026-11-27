@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import { Menu, X, ArrowUpRight } from "lucide-react";
+import { Menu, X, ArrowUpRight, LogIn } from "lucide-react";
 import Logo from "./Logo";
 import { cn } from "@/lib/utils";
 
@@ -64,6 +64,9 @@ export default function Header({ name, logoUrl, hasBanner }: { name: string; log
         </nav>
 
         <div className="flex items-center gap-3">
+          <Link href="/login" className={cn("hidden items-center gap-1.5 rounded-full px-3 py-2 text-[13px] font-medium transition md:inline-flex", overHero ? "text-white/85 hover:bg-white/10 hover:text-white" : "text-ink-muted hover:bg-ink/5 hover:text-ink")}>
+            <LogIn className="h-4 w-4" /> Login
+          </Link>
           <Link href="/contact" className={cn("hidden sm:inline-flex", overHero ? "btn-ghost-light !px-5 !py-2.5" : "btn-primary !px-5 !py-2.5")}>
             Book a Shoot <ArrowUpRight className="h-4 w-4" />
           </Link>
@@ -92,9 +95,12 @@ export default function Header({ name, logoUrl, hasBanner }: { name: string; log
                 {n.label}
               </Link>
             ))}
-            <Link href="/contact" className="btn-primary mt-8 self-start">
-              Book a Shoot <ArrowUpRight className="h-4 w-4" />
-            </Link>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <Link href="/contact" className="btn-primary">
+                Book a Shoot <ArrowUpRight className="h-4 w-4" />
+              </Link>
+              <Link href="/login" className="btn-outline"><LogIn className="h-4 w-4" /> Login</Link>
+            </div>
           </nav>
         </div>
       )}

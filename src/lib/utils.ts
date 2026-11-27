@@ -95,3 +95,35 @@ export function errorMessage(err: unknown) {
   if (err && typeof err === "object" && "message" in err) return String((err as { message: unknown }).message);
   return String(err);
 }
+
+/** Normalises an Indian mobile number to its 10 digits, or null if it isn't one. */
+export function normalizeMobile(input: string): string | null {
+  let d = digitsOnly(input);
+  if (d.length === 12 && d.startsWith("91")) d = d.slice(2);
+  else if (d.length === 11 && d.startsWith("0")) d = d.slice(1);
+  return /^[6-9]\d{9}$/.test(d) ? d : null;
+}
+
+/**
+ * Admins sign in with a mobile number. Supabase's phone login needs a paid SMS provider,
+ * so each admin account is created with a hidden login email derived from the number,
+ * e.g. 9849305063 -> cnu.kunchala+9849305063@gmail.com (plus-addressing on the studio inbox).
+ */
+export function mobileToLoginEmail(mobile10: string, base: string) {
+  const [local, domain] = base.split("@");
+  return `${local}+${mobile10}@${domain}`.toLowerCase();
+}
+
+export function loginEmailToMobile(email: string | null | undefined): string | null {
+  return email?.match(/\+(\d{10})@/)?.[1] ?? null;
+}
+
+/** Password rule for admin accounts: 8+ characters with an uppercase letter, a number and a special character. */
+export function passwordProblem(pw: string): string | null {
+  if (pw.length < 8) return "Password must be at least 8 characters.";
+  if (!/[A-Z]/.test(pw)) return "Password needs at least one capital letter.";
+  if (!/[a-z]/.test(pw)) return "Password needs at least one small letter.";
+  if (!/\d/.test(pw)) return "Password needs at least one number.";
+  if (!/[^A-Za-z0-9]/.test(pw)) return "Password needs at least one special character (e.g. @ # $ !).";
+  return null;
+}

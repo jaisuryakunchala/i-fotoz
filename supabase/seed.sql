@@ -2,6 +2,7 @@
 
 update public.settings set
   site_name = 'i Fotoz',
+  logo_url = '/logo.png',
   tagline = 'Every Frame Tells a Story.',
   email = 'cnu.kunchala@gmail.com',
   phone = '+91 98493 05063',

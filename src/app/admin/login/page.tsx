@@ -2,7 +2,7 @@ import { Suspense } from "react";
 import LoginForm from "./LoginForm";
 import { isSupabaseConfigured } from "@/lib/config";
 
-export const metadata = { title: "Sign in" };
+export const metadata = { title: "Admin login" };
 
 export default function LoginPage() {
   return (

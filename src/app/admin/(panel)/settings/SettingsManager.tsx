@@ -6,7 +6,7 @@ import { getSupabaseBrowser } from "@/lib/supabase/client";
 import { removeFiles } from "@/lib/upload";
 import type { Category, Settings, Video } from "@/lib/types";
 import { DEFAULT_SETTINGS_CLIENT } from "./defaults";
-import { cn, digitsOnly, safeMapEmbed } from "@/lib/utils";
+import { cn, digitsOnly, passwordProblem, safeMapEmbed } from "@/lib/utils";
 import { LoadingBlock, PageTitle, Spinner, Toggle } from "@/components/admin/ui";
 import ImageField from "@/components/admin/ImageField";
 import { useToast } from "@/components/admin/Toast";
@@ -274,7 +274,8 @@ function AccountTab() {
   async function change(e: React.FormEvent) {
     e.preventDefault();
     if (busy) return;
-    if (pw.length < 8) return toast("Use at least 8 characters.", "error");
+    const problem = passwordProblem(pw);
+    if (problem) return toast(problem, "error");
     if (pw !== pw2) return toast("The passwords do not match.", "error");
     setBusy(true);
     const { error } = await getSupabaseBrowser().auth.updateUser({ password: pw });
@@ -287,6 +288,7 @@ function AccountTab() {
   return (
     <form onSubmit={change} className="max-w-sm space-y-4">
       <h3 className="font-semibold">Change admin password</h3>
+      <p className="text-xs text-neutral-500">At least 8 characters, with a capital letter, a small letter, a number and a special character (e.g. @ # $ !).</p>
       <div><label className="field-label">New password</label><input type="password" className="input" autoComplete="new-password" value={pw} onChange={(e) => setPw(e.target.value)} /></div>
       <div><label className="field-label">Confirm new password</label><input type="password" className="input" autoComplete="new-password" value={pw2} onChange={(e) => setPw2(e.target.value)} /></div>
       <button className="a-btn-primary" disabled={busy}>{busy && <Spinner />} Update password</button>
