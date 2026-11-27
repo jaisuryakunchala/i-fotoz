@@ -1,5 +1,8 @@
-export const SUPABASE_URL = (process.env.NEXT_PUBLIC_SUPABASE_URL ?? "").replace(/\/$/, "");
-export const SUPABASE_ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? "";
+/** Strips invisible / non-ASCII characters that sneak in when keys are copied from chats or documents. */
+const clean = (v: string | undefined) => (v ?? "").replace(/[^\x21-\x7E]/g, "").replace(/^["']+|["']+$/g, "");
+
+export const SUPABASE_URL = clean(process.env.NEXT_PUBLIC_SUPABASE_URL).replace(/\/$/, "");
+export const SUPABASE_ANON_KEY = clean(process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY);
 
 /** True when real Supabase credentials are present. Without them the public site runs on sample content. */
 export const isSupabaseConfigured =
@@ -16,4 +19,4 @@ export const ICON_TYPES = [...IMAGE_TYPES, "image/x-icon", "image/vnd.microsoft.
 export const VIDEO_TYPES = ["video/mp4", "video/webm", "video/quicktime"];
 
 /** Base inbox for the hidden admin login emails (see mobileToLoginEmail). */
-export const ADMIN_LOGIN_EMAIL_BASE = process.env.NEXT_PUBLIC_ADMIN_LOGIN_EMAIL_BASE || "cnu.kunchala@gmail.com";
+export const ADMIN_LOGIN_EMAIL_BASE = clean(process.env.NEXT_PUBLIC_ADMIN_LOGIN_EMAIL_BASE) || "cnu.kunchala@gmail.com";
