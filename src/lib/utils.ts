@@ -75,7 +75,7 @@ export function safeMapEmbed(input: string): string | null {
   const src = input.match(/src="([^"]+)"/)?.[1] ?? input.trim();
   try {
     const u = new URL(src);
-    if (u.protocol === "https:" && /(^|\.)google\.[a-z.]+$/.test(u.hostname) && u.pathname.startsWith("/maps/embed")) return u.toString();
+    if (u.protocol === "https:" && /(^|\.)google\.[a-z.]+$/.test(u.hostname) && (u.pathname.startsWith("/maps/embed") || (u.pathname === "/maps" && u.searchParams.get("output") === "embed"))) return u.toString();
   } catch {
     /* ignore */
   }
