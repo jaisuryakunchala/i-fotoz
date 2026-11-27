@@ -231,8 +231,12 @@ function HomepageTab({ form, text, area, imageField }: {
           <h3 className="font-semibold">About section</h3>
           {text("about_heading", "About heading", { maxLength: 120 })}
           {area("about_text", "About text", 7, "Leave an empty line between paragraphs.")}
+          <div className="grid gap-4 sm:grid-cols-2">
+            {text("photographer_name", "Photographer name", { maxLength: 80 })}
+            {text("photographer_credentials", "Qualification", { maxLength: 80, placeholder: "BFA · JNTUH" })}
+          </div>
         </div>
-        {imageField("about_image", "About image", { aspect: "aspect-[4/5] max-w-xs", maxSide: 1600 })}
+        {imageField("about_image", "Photographer photo", { aspect: "aspect-[4/5] max-w-xs", maxSide: 1600 })}
       </section>
 
       <section className="grid gap-8 border-t border-neutral-200 pt-8 lg:grid-cols-2">

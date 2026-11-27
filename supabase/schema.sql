@@ -112,11 +112,16 @@ create table if not exists public.settings (
   about_text       text not null default '',
   about_image_url  text,
   about_image_path text,
+  photographer_name        text not null default '',
+  photographer_credentials text not null default '',
   banner_enabled   boolean not null default false,
   banner_text      text not null default '',
   banner_link      text not null default '',
   updated_at       timestamptz not null default now()
 );
+
+alter table public.settings add column if not exists photographer_name text not null default '';
+alter table public.settings add column if not exists photographer_credentials text not null default '';
 
 insert into public.settings (id) values (1) on conflict (id) do nothing;
 

@@ -1,0 +1,8 @@
+Put the photographer photo here, named exactly:  photographer.jpg
+
+It appears in the "About Our Studio" section of the homepage.
+A portrait (vertical) photo works best, around 1000-1600 pixels tall.
+Until it is added, the homepage hero photo is shown instead.
+
+Once the admin dashboard is connected, the photo can also be changed in
+Admin -> Website Settings -> Homepage -> Photographer photo.

@@ -117,11 +117,11 @@ export default async function HomePage() {
         <div className="container-x grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
           <div className="relative">
             <div className="aspect-[4/5] overflow-hidden rounded-2xl bg-paper-warm">
-              <Img src={s.about_image_url ?? s.hero_image_url} alt={`Inside ${s.site_name}`} className="h-full w-full object-cover" fallbackClassName="h-full w-full" />
+              <Img src={s.about_image_url ?? s.hero_image_url} fallbackSrc={s.hero_image_url} alt={s.photographer_name ? `${s.photographer_name}, photographer at ${s.site_name}` : `The photographer at ${s.site_name}`} className="h-full w-full object-cover" fallbackClassName="h-full w-full" />
             </div>
             <div className="absolute -bottom-6 -right-2 hidden rounded-2xl bg-ink p-6 text-paper shadow-2xl sm:block lg:-right-8">
-              <p className="font-display text-5xl text-brass-light">{s.site_name}</p>
-              <p className="mt-1 text-xs uppercase tracking-widest text-paper/60">{s.tagline}</p>
+              <p className="font-display text-4xl text-brass-light">{s.photographer_name || s.site_name}</p>
+              <p className="mt-1 text-xs uppercase tracking-widest text-paper/60">{s.photographer_credentials || s.tagline}</p>
             </div>
           </div>
           <div>

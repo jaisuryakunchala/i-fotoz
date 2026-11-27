@@ -3,24 +3,28 @@
 update public.settings set
   site_name = 'i Fotoz',
   tagline = 'Every Frame Tells a Story.',
-  email = 'hello@ifotoz.com',
-  phone = '+91 98765 43210',
+  email = 'cnu.kunchala@gmail.com',
+  phone = '+91 98493 05063',
   phone2 = '',
-  whatsapp = '919876543210',
+  whatsapp = '919849305063',
   address = 'Main Road, City Centre, Your City',
   map_embed_url = '',
   business_hours = 'Mon – Sat: 9:30 AM – 8:30 PM · Sunday by appointment',
-  instagram_url = 'https://instagram.com/',
-  facebook_url = 'https://facebook.com/',
-  youtube_url = 'https://youtube.com/',
+  instagram_url = 'https://www.instagram.com/jfilms_ifotozphotography/',
+  facebook_url = '',
+  youtube_url = 'https://www.youtube.com/@sreenuification',
   hero_heading = 'Every Frame Tells a Story.',
   hero_description = 'Weddings, portraits, celebrations and events — photographed with patience, craft and an eye for the moments that matter.',
   hero_image_url = 'https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=2400&q=80',
   about_heading = 'A family studio built on trust and craft',
-  about_text = 'For years, i Fotoz has photographed the milestones of families in our city — weddings, engagements, birthdays and everyday portraits. We work with care, keep things relaxed in front of the camera, and deliver images you will be proud to keep for a lifetime.
+  about_text = 'i Fotoz is led by a professionally trained photographer with a Bachelor of Fine Arts (BFA) from JNTUH. That fine-arts foundation shapes every frame — composition, light and colour come first.
+
+For years, i Fotoz has photographed the milestones of families in our city — weddings, engagements, birthdays and everyday portraits. We work with care, keep things relaxed in front of the camera, and deliver images you will be proud to keep for a lifetime.
 
 From a single portrait in our studio to complete event coverage, every session gets the same attention to light, detail and emotion.',
-  about_image_url = 'https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=1400&q=80',
+  about_image_url = '/photographer.jpg',
+  photographer_name = '',
+  photographer_credentials = 'BFA · JNTUH',
   banner_enabled = true,
   banner_text = 'Now booking wedding & engagement shoots for the new season',
   banner_link = '/contact',

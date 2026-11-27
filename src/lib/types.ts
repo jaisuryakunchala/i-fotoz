@@ -68,6 +68,8 @@ export interface Settings {
   about_text: string;
   about_image_url: string | null;
   about_image_path: string | null;
+  photographer_name: string;
+  photographer_credentials: string;
   banner_enabled: boolean;
   banner_text: string;
   banner_link: string;

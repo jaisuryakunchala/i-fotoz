@@ -29,6 +29,8 @@ export const DEFAULT_SETTINGS: Settings = {
   about_text: "",
   about_image_url: null,
   about_image_path: null,
+  photographer_name: "",
+  photographer_credentials: "",
   banner_enabled: false,
   banner_text: "",
   banner_link: "",

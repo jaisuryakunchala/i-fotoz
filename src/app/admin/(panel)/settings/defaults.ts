@@ -5,6 +5,6 @@ export const DEFAULT_SETTINGS_CLIENT: Settings = {
   email: "", phone: "", phone2: "", whatsapp: "", address: "", map_embed_url: "", business_hours: "",
   instagram_url: "", facebook_url: "", youtube_url: "",
   hero_heading: "Every Frame Tells a Story.", hero_description: "", hero_image_url: null, hero_image_path: null,
-  about_heading: "", about_text: "", about_image_url: null, about_image_path: null,
+  about_heading: "", about_text: "", about_image_url: null, about_image_path: null, photographer_name: "", photographer_credentials: "",
   banner_enabled: false, banner_text: "", banner_link: "",
 };
